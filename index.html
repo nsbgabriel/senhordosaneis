@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Senhor dos Anéis</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="title--big">
+                Sua Trilogia Favorita Aqui
+            </h1>
+            <img src="./dist/images/anel-senhor-dos-aneis.png" alt="Anel senhor dos anéis">
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero__content">
+            <div class="hero__content__branding">
+                <h3 class="title--small">
+                    Senhor dos Anéis e O Hobbit em um só lugar
+                </h3>
+            </div>
+            <p>
+                <a href="#" class="link-text">Assista Agora!</a>
+                <br>
+                <span class="text" style="color: #000;">Sem pagar nada</span>
+            </p>
+            <ul class="hero__content__combos">
+                <li class="hero__content__combos__combo">
+                    <a href="#lord"><button class="button">Trilogia o Senhor dos Anéis</button></a>
+                </li>
+                <li class="hero__content__combos__combo">
+                    <a href="#hobbit"><button class="button">Trilogia O Hobbit</button></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button id="lord" data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">O Senhor dos Anéis</button>
+            <button id="hobbit" data-tab-button="populares" class="shows__tabs__button">O Hobbit</button>
+        </nav>
+        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/sociedade_do_anel.jpg" alt="Senhor dos Anéis: A Sociedade do Anel">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/duas_torres.jpg" alt="Senhor dos Anéis: Duas Torres">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/retorno_do_rei.jpg" alt="Senhor dos Anéis: O Retorno do Rei">
+            </li>
+        </ul>
+        <ul data-tab-id="populares" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/hobbiT_jornada_inesperada.jpg" alt="O Hobbit - Uma Jornada Inesperada">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/hobbit_desolacao_smaug.jpg" alt="O Hobbit - A Desolação de Smaug">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/hobbit_batalha_cinco_exercitos.jpg" alt="O Hobbit - A Batalha dos Cinco Exercitos">
+            </li>
+        </ul>
+    </section>
+    <section class="plans">
+        <h2 class="title--big" id="lord">Escolha onde assistir</h2>
+        <ul class="plans__list">
+            <li class="plans__list__item">
+                <strong class="title--small">Servidor Online Legendado</strong>
+                <p class="text--big">
+                    Servidor Online legendado com imagem em FullHD e 4K.
+                </p>
+                <button class="button">Assista Agora</button>
+            </li>
+            <li class="plans__list__item">
+                <strong class="title--small">Servidor Online Dublado</strong>
+                <p class="text--big">
+                    Servidor Online dublado com imagem em FullHD e 4K.
+                </p>
+                <button class="button">Assista Agora</button>
+            </li>
+            <li class="plans__list__item">
+                <strong class="title--small">Download uTorrent</strong>
+                <p class="text--big">
+                    Baixe uTorrent e assista offline de onde quiser.
+                </p>
+                <button class="button">Assista Agora</button>
+            </li>
+        </ul>
+    </section>
+    <section class="image-text-section">
+        <img src="./dist/images/tv_pc_tablet_celular.png" alt="Imagem com TV, tablet, computador e celular">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Assista do seu jeito</h2>
+            <p class="text--big">
+                Nossos servidores são compatíveis com qualquer tamanho de tela. É só clicar e aproveitar! 
+            </p>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/anel-senhor-dos-aneis.png" alt="Senhor dos Aneis">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icones/globe.svg" alt="Globo">
+                        <select>
+                            <option>English</option>
+                            <option selected>Português</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Anúncios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Dispositivos compatíveis</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src=".dist/js/main.js"></script>
+</body>
+</html>
